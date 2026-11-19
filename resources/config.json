@@ -1,0 +1,13 @@
+{
+    "url": "https://demowebshop.tricentis.com/",
+    "browser": "Chrome",
+    "headless": false,
+    "projectname": "web automation using playwright javascript",
+    "parallel": false,
+    "_runOn_comment": "local or lambdatest",
+    "runOn": "local",
+    "lambdatest": "LT_USERNAME,LT_ACCESS_KEY",
+    "dockerport": "0.0.0.0:4000",
+    "docker": false,
+    "screenshot": "normal"
+}

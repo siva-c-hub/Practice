@@ -1,0 +1,21 @@
+{
+  "name": "play-wright-cucumber-bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm i && npx playwright install",
+    "test": "node generate-report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.6.0",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.3",
+    "allure-commandline": "^2.29.0",
+    "allure-cucumberjs": "^3.4.3",
+    "allure-js-commons": "^3.4.3"
+  }
+}

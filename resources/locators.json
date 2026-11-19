@@ -1,0 +1,41 @@
+{
+  "Home Page": {
+    "loginPagepagetitle": "login"
+  },
+  "Login": {
+    "Birthpop": ".show-element",
+    "loginiconID": "#account-button[data-test-id='desktop-account-button']",
+    "BeforeloginButtonXPATH": "[data-test-id='login-button']",
+    "loginwithEmailButtonXPATH": "//div[text()='Login with Email and Password']",
+    "loginLinkXPATH": "//a[contains(@class,'ico-login') or text()='Log in']",
+    "usernameInputXPATH": "(//input[@id='Email' or @name='email' or @name='Email'])[1]",
+    "passwordInputXPATH": "(//input[@id='Password' or @name='password' or @name='Password'])[1]",
+    "loginButtonXPATH": ".button-1.login-button",
+    "userAccountLinkXPATH": "(//a[@class='account'])[1]",
+    "customerInfoHeadingXPATH": "//h1[contains(.,'My account - Customer info')]",
+    "logoutButtonXPATH": "//a[contains(.,'Log out')]",
+    "errorMessageXPATH": ".message-error",
+    "emailValidationErrorXPATH": ".field-validation-error",
+    "rememberMeCheckboxXPATH": "#RememberMe",
+    "forgotPasswordLinkXPATH": "//a[contains(@href,'/passwordrecovery')]",
+    "loginPagepagetitle": "login"
+  },
+  "Demo Web Shop": {
+    "BooksLinkXPATH": "(//a[contains(.,'Books')])[1]",
+    "ComputersLinkXPATH": "(//a[contains(.,'Computers')])[1]",
+    "ElectronicsLinkXPATH": "(//a[contains(.,'Electronics')])[1]",
+    "ApparelShoesLinkXPATH": "(//a[contains(.,'Apparel & Shoes')])[1]",
+    "DigitaldownloadsLinkXPATH": "(//a[contains(.,'Digital downloads')])[1]",
+    "JewelryLinkXPATH": "(//a[contains(.,'Jewelry')])[1]",
+    "GiftCardsLinkXPATH": "(//a[contains(.,'Gift Cards')])[1]",
+    "sortByDropdownID": "#products-orderby",
+    "productTitlesXPATH": "//h2[@class='product-title']/a",
+    "productPricesXPATH": "//span[contains(@class,'actual-price')]",
+    "productItemBoxCSS": ".product-item",
+    "categoryTitleXPATH": "//div[@class='page-title']//h1",
+    "productsPageSizeDropdownID": "#products-pagesize",
+    "productsViewModeDropdownID": "#products-viewmode",
+    "DefaultpagepageTitle": "",
+    "messageLabeltext": ""
+  }
+}
